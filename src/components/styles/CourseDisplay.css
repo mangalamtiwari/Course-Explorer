@@ -1,0 +1,36 @@
+.container {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container .cards {
+    width: 300px;
+    /* Set your desired width */
+    height: 200px;
+    /* Set your desired height */
+    border: 2px solid #333;
+    /* Border color and thickness */
+    padding: 20px;
+    /* Padding inside the box */
+    box-sizing: border-box;
+    margin: 10px auto;
+    display: block;
+    background-color: aqua;
+    border-radius: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.container .cards .likeButton {
+    position: absolute;
+    padding: 8px 16px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    /* left: 245px;
+    top: 30px; */
+    background-color: darkgoldenrod;
+}
+
+button:hover {
+    background-color: #45a049;
+}

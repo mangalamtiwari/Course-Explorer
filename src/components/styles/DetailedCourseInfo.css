@@ -1,0 +1,16 @@
+.detailedCourse{
+    width: 500px;
+    /* Set your desired width */
+    height: 400px;
+    /* Set your desired height */
+    border: 2px solid #333;
+    /* Border color and thickness */
+    padding: 20px;
+    /* Padding inside the box */
+    box-sizing: border-box;
+    margin: 10px auto;
+    display: block;
+    background-color: aqua;
+    border-radius: 10px;
+    align-items: center;
+}
